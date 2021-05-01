@@ -1,0 +1,25 @@
+body {
+  display: block;
+}
+
+@media screen and (min-width:900px) { 
+  #navbar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 5px;
+    overflow: auto;
+    padding-top: 20px;
+  }
+  #main-doc {
+    margin-left: 200px;
+  }
+ }
+
+ @media screen and (max-width:300px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+ }
